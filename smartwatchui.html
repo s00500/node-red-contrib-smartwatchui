@@ -1,0 +1,31 @@
+<script type="text/javascript">
+    RED.nodes.registerType('watch-button',{
+        category: 'smartwatch',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},
+            uicolor: {value:"#FFFFFF"}
+        },
+        inputs:0,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"Watch Button";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="watch-button">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-uicolor"><i class="icon-tag"></i> Color</label>
+        <input type="text" id="node-input-uicolor" placeholder="Color">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="watch-button">
+    <p>This node creates a button on your pebble and fitbit smartwatches</p>
+</script>
