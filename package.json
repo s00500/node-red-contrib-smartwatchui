@@ -1,0 +1,25 @@
+{
+  "name": "node-red-contrib-smartwatchui",
+  "version": "1.0.0",
+  "description": " A simple solution to create UIs on Fitbit and Pebble smartwatches for node-red ",
+  "main": "smartwatchui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s00500/node-red-contrib-smartwatchui.git"
+  },
+  "keywords": [
+    "ui",
+    "nodered",
+    "smartwatch",
+    "iot"
+  ],
+  "author": "Lukas Bachschwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s00500/node-red-contrib-smartwatchui/issues"
+  },
+  "homepage": "https://github.com/s00500/node-red-contrib-smartwatchui#readme"
+}
